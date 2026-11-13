@@ -1,0 +1,33 @@
+# 构建产物
+bin/
+obj/
+
+# 发布产物（较大，不提交）
+publish/
+
+# 临时目录
+.tmp/
+tmp/
+
+# 转换输出（按需生成，不提交）
+warband-port/
+
+# 反编译产物（只供本地参考，不分发）
+decompiled/
+
+# API 快照（按需生成）
+snapshots/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
